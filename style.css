@@ -4,6 +4,9 @@ h1 {
 }
 
 .robots {
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
 }
 
 .head, 
@@ -12,7 +15,7 @@ h1 {
 .right_arm, 
 .left_leg, 
 .right_leg {
-	 background-color: #5f93e8;
+	 background-color: #3a1a94;
 }
 
 .head { 
@@ -24,7 +27,7 @@ h1 {
 } 
 
 .eyes {
-	
+	display: flex;
 }
 
 .head:hover {
